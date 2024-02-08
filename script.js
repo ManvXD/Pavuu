@@ -116,7 +116,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst trillions and trillions of stars,", "over billions of years"],
+        ["I Want you to know that YOU'RE The Only Person,", "I've Gave MY HEART"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -124,7 +124,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst trillions and trillions of stars, over billions of years",
+        "I Want you to know that YOU'RE The Only Person,", "I've Gave MY HEART",
         canvas.width / 2,
         canvas.height / 2
       );
