@@ -106,8 +106,6 @@ function drawText() {
     );
     opacity = opacity - 0.01;
   }
-
-  //needs this if statement to reset the opacity before next statement on canvas
   if (frameNumber == 600) {
     opacity = 0;
   }
